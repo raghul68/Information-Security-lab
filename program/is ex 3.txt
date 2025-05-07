@@ -1,0 +1,32 @@
+whoami  
+pwd  
+adduser sanjana  
+cat /etc/passwd  
+cat /etc/shadow  
+addgroup "Third Year"  
+cat /etc/group  
+vi sam.sh  
+ls -l  
+ls -a  
+vi sample.txt  
+ls -l  
+chmod o-r sample.txt  
+chmod g+x sample.txt  
+chmod o-r-w sample.txt  
+chmod o+r+w sample.txt  
+chmod 777 sample.txt  
+chmod 000 sample.txt  
+chmod 600 sample.txt  
+vi greet.sh  
+echo “What is your name?”  
+read user  
+echo “Hello $user!!”  
+vi math.sh  
+echo “Enter 1st number:”  
+read a  
+echo “Enter 2nd number:”  
+read b  
+echo “sum=” $((a+b))  
+echo “difference=”$((a-b))  
+echo “Multiplication=”$((a*b))  
+echo “Division=”$((a/b))  

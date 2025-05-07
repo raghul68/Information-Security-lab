@@ -1,0 +1,19 @@
+[root@fedora student]# wget -c https://github.com/OWASP/O-Saft/raw/master/o-saft.tgz
+
+[root@fedora student]# ls -lrt
+
+[root@fedora student]# tar -tf o-saft.tgz
+
+
+[root@fedora student]# tar -tf o-saft.tgz
+
+[root@fedora o-Saft]# yum install perl
+
+[root@fedora O-Saft]# ./o-saft -cipher rajalakshmi.org
+# OR equivalently
+./o-saft.pl -+cipher rajalakshmi.org | cat
+
+
+[root@fedora O-Saft]# ./o-saft -version
+# OR equivalently
+./o-saft.pl -version | cat

@@ -1,0 +1,19 @@
+[root@localhost security lab]# cd /usr/src  
+[root@localhost security lab]# wget https://www.snort.org/downloads/snort/daq-2.0.7.tar.gz  
+[root@localhost security lab]# wget https://www.snort.org/downloads/snort/snort-2.9.16.1.tar.gz  
+[root@localhost security lab]# tar xvzf daq-2.0.7.tar.gz  
+[root@localhost security lab]# tar xvzf snort-2.9.16.1.tar.gz  
+[root@localhost security lab]# yum install libpcap* pcre* libdnet* -y  
+[root@localhost security lab]# cd daq-2.0.7  
+[root@localhost security lab]# ./configure  
+[root@localhost security lab]# make  
+[root@localhost security lab]# make install  
+[root@localhost security lab]# cd ../snort-2.9.16.1  
+[root@localhost security lab]# ./configure  
+[root@localhost security lab]# make  
+[root@localhost security lab]# make install  
+[root@localhost security lab]# snort --version  
+[root@localhost security lab]# mkdir /etc/snort  
+[root@localhost security lab]# mkdir /etc/snort/rules  
+[root@localhost security lab]# mkdir /var/log/snort  
+[root@localhost security lab]# vi /etc/snort/snort.conf  
