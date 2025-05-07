@@ -1,0 +1,64 @@
+Cloning into 'lynis'...
+remote: Enumerating objects: 14638, done.
+remote: Counting objects: 100% (1444/1444), done.
+remote: Compressing objects: 100% (31/31), done.
+remote: Total 14638 (delta 21), reused 30 (delta 13), pack-reused 14594
+Receiving objects: 100% (14638/14638), 7.77 MiB | 7.50 MiB/s, done.
+Resolving deltas: 100% (10787/10787), done.
+
+
+CHANGELOG.md  CONTRIBUTING.md  db  developer.prf  FAQ  include  LICENSE  
+lynis.8  README  SECURITY.md  CODE_OF_CONDUCT.md  CONTRIBUTORS.md  
+default.prf  extras  HAPPY_USERS.md  INSTALL  lynis  plugins  
+README.md  TODO.md
+
+
+-rwxr-xr-x. 1 root root 51784 Mar 22 08:49 lynis
+
+ACCT-9626
+=============================================
+
+Type: test
+
+Description:
+Check for sysstat accounting data
+
+Category: security, Group: accounting
+
+Test Execution:
+    Operating System:  Yes  (Linux only)
+    Profile:           Yes  (not configured)
+
+[root@fedora lynis]#
+
+
+TOOL-5190
+=============================================
+
+Type: test
+
+Description:
+Check presence of available IDS/IPS tooling
+
+Category: security, Group: tooling
+
+Test Execution:
+    Operating System:  Yes  (all systems)
+    Profile:           Yes  (not configured)
+
+[root@fedora lynis]#
+
+
+== Lynis ==
+
+ Version       : 3.0.8
+ Status        : Up-to-date
+ Release date  : 2022-05-17
+ Project page  : https://cisofy.com/lynis/
+ Source code   : https://github.com/CISOfy/lynis
+ Latest package: https://packages.cisofy.com/
+
+2007-2021, CISOfy - https://cisofy.com/lynis/
+
+[root@fedora lynis]#
+

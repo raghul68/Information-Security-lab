@@ -1,0 +1,129 @@
+1.
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following NEW packages will be installed:
+  bettercap
+0 upgraded, 1 newly installed, 0 to remove and 1902 not upgraded.
+Need to get 6,794 kB of archives.
+After this operation, 25.2 MB of additional disk space will be used.
+Get:1 http://http.kali.org/kali kali-last-snapshot/main amd64 bettercap amd64 2.32.0-1+b7 [6,794 kB]
+Fetched 6,794 kB in 2s (3,428 kB/s)
+Selecting previously unselected package bettercap.
+(Reading database ... 339769 files and directories currently installed.)
+Preparing to unpack .../bettercap_2.32.0-1+b7_amd64.deb ...
+Unpacking bettercap (2.32.0-1+b7) ...
+Setting up bettercap (2.32.0-1+b7) ...
+bettercap.service is a disabled or a static unit, not starting it.
+Processing triggers for kali-menu (2022.3.1) ...
+
+2.
+help MODULE      : List available commands or show module specific help if no module name
+                   is provided.
+active           : Show information about active modules.
+quit             : Close the session and exit.
+sleep SECONDS    : Sleep for the given amount of seconds.
+get NAME         : Get the value of variable NAME. Use '*' alone for all, or 'NAME*' as a
+                   wildcard.
+set NAME VALUE   : Set the VALUE of variable NAME.
+read VARIABLE PROMPT : Show PROMPT to ask the user for input that will be saved inside VARI-
+                   ABLE.
+clear            : Clear the screen.
+include CAPLET   : Load and run this caplet in the current session.
+! COMMAND        : Execute a shell command and print its output.
+alias MAC NAME   : Assign an alias to a given endpoint given its MAC address.
+
+modules
+-------
+arp.spoof      : not running
+api.rest       : not running
+ble.recon      : not running
+caplets        : not running
+dhcp6.spoof    : not running
+dns.spoof      : not running
+events.stream  : running
+hid            : not running
+http.proxy     : not running
+http.server    : not running
+https.proxy    : not running
+mac.changer    : not running
+mdns.server    : not running
+mysql.server   : not running
+net.probe      : not running
+net.recon      : not running
+net.sniff      : not running
+packet.proxy   : not running
+syn.flood      : not running
+tcp.proxy      : not running
+ticker         : not running
+update         : not running
+ui.cli         : not running
+wol            : not running
+
+3.
+ PID USER       PRI NI VIRT RES SHR S CPU% MEM%   TIME+  COMMAND
+ 2406 root        20  0 1244M 206M  66M S  0.0 16.9   0:00.69 /usr/bin/unifi -cwd /usr/lib/unifi -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Xmx1024M -XX:+ExitOnOutOfMemoryError -XX:+UseConcMarkSweepGC -XX:+CMSIncrementalMode -XX:+CMSIncrementalPacing -XX:CMSIncrementalDutyCycleMin=0 -XX:CMSIncrementalDutyCycle=10 -XX:CMSInitiatingOccupancyFraction=75 -XX:+UseParNewGC -XX:+ExplicitGCInvokesConcurrent -Djava.rmi.server.hostname=127.0.0.1 -Djava.net.preferIPv4Stack=true -Dsun.net.spi.nameservice.provider.1=dns,sun -Djava.security.egd=file:/dev/./urandom -Dunifi.datadir=/var/lib/unifi -Dunifi.logdir=/var/log/unifi -Dunifi.rundir=/var/run/unifi -Dunifi.tmpdir=/var/cache/unifi -Djava.library.path=/usr/lib/unifi/lib -Dunifi.system_id=78:8a:20:e1:22:98 -jar /usr/lib/unifi/bin/UniFi.jar start
+ 2407 unifi      20  0 1244M 206M  66M S  0.0 16.9   0:00.00 /usr/lib/jvm/java-11-openjdk-amd64/bin/java -Xmx1024M -XX:+ExitOnOutOfMemoryError -XX:+UseConcMarkSweepGC -XX:+CMSIncrementalMode -XX:+CMSIncrementalPacing -XX:CMSIncrementalDutyCycleMin=0 -XX:CMSIncrementalDutyCycle=10 -XX:CMSInitiatingOccupancyFraction=75 -XX:+UseParNewGC -XX:+ExplicitGCInvokesConcurrent -Djava.rmi.server.hostname=127.0.0.1 -Djava.net.preferIPv4Stack=true -Dsun.net.spi.nameservice.provider.1=dns,sun -Djava.security.egd=file:/dev/./urandom -Dunifi.datadir=/var/lib/unifi -Dunifi.logdir=/var/log/unifi -Dunifi.rundir=/var/run/unifi -Dunifi.tmpdir=/var/cache/unifi -Djava.library.path=/usr/lib/unifi/lib -Dunifi.system_id=78:8a:20:e1:22:98 -jar /usr/lib/unifi/bin/UniFi.jar start
+ 2458 root        20  0  180M 6528 3904 S  0.0  0.5   0:00.00 /usr/sbin/apache2 -k start
+ 2460 www-data    20  0  373M  34M  13M S  0.0  2.8   0:00.00 /usr/sbin/apache2 -k start
+ 2461 www-data    20  0  373M  34M  13M S  0.0  2.8   0:00.00 /usr/sbin/apache2 -k start
+ 2462 www-data    20  0  373M  34M  13M S  0.0  2.8   0:00.00 /usr/sbin/apache2 -k start
+ 2463 www-data    20  0  373M  34M  13M S  0.0  2.8   0:00.00 /usr/sbin/apache2 -k start
+ 2464 www-data    20  0  373M  34M  13M S  0.0  2.8   0:00.00 /usr/sbin/apache2 -k start
+ 2465 www-data    20  0  373M  34M  13M S  0.0  2.8   0:00.00 /usr/sbin/apache2 -k start
+ 2466 www-data    20  0  373M  34M  13M S  0.0  2.8   0:00.00 /usr/sbin/apache2 -k start
+ 2518 root        20  0  180M 6528 3904 S  0.0  0.5   0:00.00 /usr/sbin/apache2 -k start
+ 2520 www-data    20  0  373M  34M  13M S  0.0  2.8   0:00.00 /usr/sbin/apache2 -k start
+ 2521 www-data    20  0  373M  34M  13M S  0.0  2.8   0:00.00 /usr/sbin/apache2 -k start
+ 2522 www-data    20  0  373M  34M  13M S  0.0  2.8   0:00.00 /usr/sbin/apache2 -k start
+ 2523 www-data    20  0  373M  34M  13M S  0.0  2.8   0:00.00 /usr/sbin/apache2 -k start
+ 2524 www-data    20  0  373M  34M  13M S  0.0  2.8   0:00.00 /usr/sbin/apache2 -k start
+ 2525 www-data    20  0  373M  34M  13M S  0.0  2.8   0:00.00 /usr/sbin/apache2 -k start
+ 2526 www-data    20  0  373M  34M  13M S  0.0  2.8   0:00.00 /usr/sbin/apache2 -k start
+ 2527 root        20  0  180M 6528 3904 S  0.0  0.5   0:00.00 /usr/sbin/apache2 -k start
+ 2529 www-data    20  0  373M  34M  13M S  0.0  2.8   0:00.00 /usr/sbin/apache2 -k start
+ 2530 www-data    20  0  373M  34M  13M S  0.0  2.8   0:00.00 /usr/sbin/apache2 -k start
+ 2531 www-data    20  0  373M  34M  13M S  0.0  2.8   0:00.00 /usr/sbin/apache2 -k start
+ 2532 www-data    20  0  373M  34M  13M S  0.0  2.8   0:00.00 /usr/sbin/apache2 -k start
+ 2533 www-data    20  0  373M  34M  13M S  0.0  2.8   0:00.00 /usr/sbin/apache2 -k start
+ 2534 www-data    20  0  373M  34M  13M S  0.0  2.8   0:00.00 /usr/sbin/apache2 -k start
+ 2535 www-data    20  0  373M  34M  13M S  0.0  2.8   0:00.00 /usr/sbin/apache2 -k start
+ 2536 root        20  0  180M 6528 3904 S  0.0  0.5   0:00.00 /usr/sbin/apache2 -k start
+ 2538 www-data    20  0  373M  34M  13M S  0.0  2.8   0:00.00 /usr/sbin/apache2 -k start
+ 2539 www-data    20  0  373M  34M  13M S  0.0  2.8   0:00.00 /usr/sbin/apache2 -k start
+ 2540 www-data    20  0  373M  34M  13M S  0.0  2.8   0:00.00 /usr/sbin/apache2 -k start
+ 2541 www-data    20  0  373M  34M  13M S  0.0  2.8   0:00.00 /usr/sbin/apache2 -k start
+ 2542 www-data    20  0  373M  34M  13M S  0.0  2.8   0:00.00 /usr/sbin/apache2 -k start
+ 2543 www-data    20  0  373M  34M  13M S  0.0  2.8   0:00.00 /usr/sbin/apache2 -k start
+ 2544 www-data    20  0  373M  34M  13M S  0.0  2.8   0:00.00 /usr/sbin/apache2 -k start
+ 2545 root        20  0  180M 6528 3904 S  0.0  0.5   0:00.00 /usr/sbin/apache2 -k start
+ 2547 www-data    20  0  373M  34M  13M S  0.0  2.8   0:00.00 /usr/sbin/apache2 -k start
+ 2548 www-data    20  0  373M  34M  13M S  0.0  2.8   0:00.00 /usr/sbin/apache2 -k start
+ 2549 www-data    20  0  373M  34M  13M S  0.0  2.8   0:00.00 /usr/sbin/apache2 -k start
+ 2550 www-data    20  0  373M  34M  13M S  0.0  2.8   0:00.00 /usr/sbin/apache2 -k start
+ 2551 www-data    20  0  373M  34M  13M S  0.0  2.8   0:00.00 /usr/sbin/apache2 -k start
+ 2552 www-data    20  0  373M  34M  13M S  0.0  2.8   0:00.00 /usr/sbin/apache2 -k start
+ 2553 www-data    20  0  373M  34M  13M S  0.0  2.8   0:00.00 /usr/sbin/apache2 -k start
+ 2554 root        20  0  180M 6528 3904 S  0.0  0.5   0:00.00 /usr/sbin/apache2 -k start
+ 2556 www-data    20  0  373M  34M  13M S  0.0  2.8   0:00.00 /usr/sbin/apache2 -k start
+ 2557 www-data    20  0  373M  34M  13M S  0.0  2.8   0:00.00 /usr/sbin/apache2 -k start
+ 2558 www-data    20  0  373M  34M  13M S  0.0  2.8   0:00.00 /usr/sbin/apache2 -k start
+ 2559 www-data    20  0  373M  34M  13M S  0.0  2.8   0:00.00 /usr/sbin/apache2 -k start
+ 2560 www-data    20  0  373M  34M  13M S  0.0  2.8   0:00.00 /usr/sbin/apache2 -k start
+ 2561 www-data    20  0  373M  34M  13M S  0.0  2.8   0:00.00 /usr/sbin/apache2 -k start
+ 2562 www-data    20  0  373M  34M  13M S  0.0  2.8   0:00.00 /usr/sbin/apache2 -k start
+ 2563 root        20  0  180M 6528 3904 S  0.0  0.5   0:00.00 /usr/sbin/apache2 -k start
+ 2565 www-data    20  0  373M  34M  13M S  0.0  2.8   0:00.00 /usr/sbin/apache2 -k start
+ 2566 www-data    20  0  373M  34M  13M S  0.0  2.8   0:00.00 /usr/sbin/apache2 -k start
+ 2567 www-data    20  0  373M  34M  13M S  0.0  2.8   0:00.00 /usr/sbin/apache2 -k start
+ 2568 www-data    20  0  373M  34M  13M S  0.0  2.8   0:00.00 /usr/sbin/apache2 -k start
+ 2569 www-data    20  0  373M  34M  13M S  0.0  2.8   0:00.00 /usr/sbin/apache2 -k start
+ 2570 www-data    20  0  373M  34M  13M S  0.0  2.8   0:00.00 /usr/sbin/apache2 -k start
+ 2571 www-data    20  0  373M  34M  13M S  0.0  2.8   0:00.00 /usr/sbin/apache2 -k start
+ 2572 root        20  0  180M 6528 3904 S  0.0  0.5   0:00.00 /usr/sbin/apache2 -k start
+ 2574 www-data    20  0  373M  34M  13M S  0.0  2.8   0:00.00 /usr/sbin/apache2 -k start
+ 2575 www-data    20  0  373M  34M  13M S  0.0  2.8   0:00.00 /usr/sbin/apache2 -k start
+ 2576 www-data    20  0  373M  34M  13M S  0.0  2.8   0:00.00 /usr/sbin/apache2 -k start
+ 2577 www-data    20  0  373M  34M  13M S  0.0  2.8   0:00.00 /usr/sbin/apache2 -k start
+ 2578 www-data    20  0  373M  34M  13M S  0.0  2.8   0:00.00 /usr/sbin/apache2 -k start
+ 2579 www-data    20  0  373M  34M  13M S  0.0  2.8   0:00.

@@ -1,0 +1,54 @@
+1.  
+Note: This output shows SysV services only and does not include native 
+systemd services. SysV configuration data might be overridden by native 
+systemd configuration.
+
+    If you want to list systemd services use 'systemctl list-unit-files'.
+    To see services enabled on particular target use 
+    'systemctl list-dependencies [target]'.
+
+livesys        0:off   1:off   2:off   3:on    4:on    5:on    6:off
+livesys-late   0:off   1:off   2:off   3:on    4:on    5:on    6:off
+
+[root@fedora student]#
+
+2.  
+Note: This output shows SysV services only and does not include native 
+systemd services. SysV configuration data might be overridden by native 
+systemd configuration.
+
+    If you want to list systemd services use 'systemctl list-unit-files'.
+    To see services enabled on particular target use 
+    'systemctl list-dependencies [target]'.
+
+livesys        0:off   1:off   2:off   3:off   4:off   5:off   6:off
+livesys-late   0:off   1:off   2:off   3:on    4:on    5:on    6:off
+
+3.  
+Fedora 36 - x86_64                            4.6 kB/s | 5.6 kB    00:01    
+Fedora Modular 36 - x86_64                     7.4 kB/s | 5.5 kB    00:00    
+Fedora 36 - x86_64 - Updates                   8.0 kB/s | 6.0 kB    00:00    
+Fedora 36 - x86_64 - Updates                   2.5 MB/s | 17 MB    00:06    
+Fedora Modular 36 - x86_64 - Updates           7.6 kB/s | 5.4 kB    00:00    
+Fedora 36 - x86_64 - Updates                   137 kB/s | 597 kB    00:04    
+
+4.  
+# This file controls the state of SELinux on the system.
+# SELINUX= can take one of these three values:
+#     enforcing - SELinux security policy is enforced.
+#     permissive - SELinux prints warnings instead of enforcing.
+#     disabled - No SELinux policy is loaded.
+
+SELINUX=enforcing
+
+# SELINUXTYPE= can take one of these three values:
+#     targeted - Targeted processes are protected.
+#     minimum - Modification of targeted policy. Only selected processes are protected.
+#     mls - Multi Level Security protection.
+
+SELINUXTYPE=targeted
+
+5.  
+ALL 
+ALL 
+ALL
